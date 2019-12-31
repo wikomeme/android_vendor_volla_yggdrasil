@@ -18,4 +18,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/umidigi/
 
 PRODUCT_COPY_FILES += \
-    vendor/umidigi/breeze/proprietary/bin/netd:$(TARGET_COPY_OUT_SYSTEM)/bin/netd
+    vendor/umidigi/breeze/proprietary/bin/netd:$(TARGET_COPY_OUT_SYSTEM)/bin/netd \
+	vendor/umidigi/breeze/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
+    vendor/umidigi/breeze/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
+    vendor/umidigi/breeze/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
+    vendor/umidigi/breeze/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so
