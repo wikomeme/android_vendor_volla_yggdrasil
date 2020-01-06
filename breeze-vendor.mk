@@ -22,4 +22,40 @@ PRODUCT_COPY_FILES += \
 	vendor/umidigi/breeze/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/umidigi/breeze/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/umidigi/breeze/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
-    vendor/umidigi/breeze/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so
+    vendor/umidigi/breeze/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
+	vendor/umidigi/breeze/proprietary/lib/libaaudio.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaaudio.so \
+	vendor/umidigi/breeze/proprietary/lib64/libaaudio.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaaudio.so \
+    vendor/umidigi/breeze/proprietary/lib/libaaudioservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaaudioservice.so \
+    vendor/umidigi/breeze/proprietary/lib/libaudio_param_parser-sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio_param_parser-sys.so \
+    vendor/umidigi/breeze/proprietary/lib64/libaudio_param_parser-sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudio_param_parser-sys.so \
+    vendor/umidigi/breeze/proprietary/lib/libaudioclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioclient.so \
+    vendor/umidigi/breeze/proprietary/lib64/libaudioclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioclient.so \
+    vendor/umidigi/breeze/proprietary/lib/libaudiocomponentengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiocomponentengine.so \
+    vendor/umidigi/breeze/proprietary/lib64/libaudiocomponentengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiocomponentengine.so \
+    vendor/umidigi/breeze/proprietary/lib/libaudiocustparam.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiocustparam.so \
+    vendor/umidigi/breeze/proprietary/lib64/libaudiocustparam.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiocustparam.so \
+    vendor/umidigi/breeze/proprietary/lib/libaudioflinger.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioflinger.so \
+    vendor/umidigi/breeze/proprietary/lib64/libaudioflinger.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioflinger.so \
+    vendor/umidigi/breeze/proprietary/lib/libaudiomanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiomanager.so \
+    vendor/umidigi/breeze/proprietary/lib64/libaudiomanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiomanager.so \
+    vendor/umidigi/breeze/proprietary/lib/libaudiopolicycustomextensions.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicycustomextensions.so \
+    vendor/umidigi/breeze/proprietary/lib64/libaudiopolicycustomextensions.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiopolicycustomextensions.so \
+    vendor/umidigi/breeze/proprietary/lib/libaudiopolicyenginedefault.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicyenginedefault.so \
+    vendor/umidigi/breeze/proprietary/lib64/libaudiopolicyenginedefault.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiopolicyenginedefault.so \
+    vendor/umidigi/breeze/proprietary/lib/libaudiopolicymanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicymanager.so \
+    vendor/umidigi/breeze/proprietary/lib64/libaudiopolicymanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiopolicymanager.so \
+    vendor/umidigi/breeze/proprietary/lib/libaudiopolicymanagerdefault.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicymanagerdefault.so \
+    vendor/umidigi/breeze/proprietary/lib64/libaudiopolicymanagerdefault.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiopolicymanagerdefault.so \
+    vendor/umidigi/breeze/proprietary/lib/libaudiopolicyservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicyservice.so \
+    vendor/umidigi/breeze/proprietary/lib64/libaudiopolicyservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiopolicyservice.so \
+    vendor/umidigi/breeze/proprietary/lib/libaudioprocessing.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioprocessing.so \
+    vendor/umidigi/breeze/proprietary/lib64/libaudioprocessing.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioprocessing.so \
+    vendor/umidigi/breeze/proprietary/lib/libaudiotoolkit.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiotoolkit.so \
+    vendor/umidigi/breeze/proprietary/lib64/libaudiotoolkit.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiotoolkit.so \
+    vendor/umidigi/breeze/proprietary/lib/libaudioutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioutils.so \
+    vendor/umidigi/breeze/proprietary/lib/libbessound_hd_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbessound_hd_mtk.so \
+    vendor/umidigi/breeze/proprietary/lib64/libbessound_hd_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbessound_hd_mtk.so \
+    vendor/umidigi/breeze/proprietary/lib/libmtkaudio_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkaudio_utils.so \
+    vendor/umidigi/breeze/proprietary/lib64/libmtkaudio_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkaudio_utils.so \
+    vendor/umidigi/breeze/proprietary/lib/libsoundtriggerservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsoundtriggerservice.so \
+    vendor/umidigi/breeze/proprietary/lib64/libsoundtriggerservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsoundtriggerservice.so \
