@@ -19,43 +19,10 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/bin/netd:system/bin/netd \
-	vendor/umidigi/breeze/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
+    vendor/umidigi/breeze/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
     vendor/umidigi/breeze/proprietary/etc/init/kpoc_charger.rc:system/etc/init/kpoc_charger.rc \
     vendor/umidigi/breeze/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
-    vendor/umidigi/breeze/proprietary/lib/libsysenv_system.so:system/lib/libsysenv_system.so \
-    vendor/umidigi/breeze/proprietary/lib/libaaudio.so:system/lib/libaaudio.so \
-	vendor/umidigi/breeze/proprietary/lib64/libaaudio.so:system/lib64/libaaudio.so \
-    vendor/umidigi/breeze/proprietary/lib/libaaudioservice.so:system/lib/libaaudioservice.so \
-    vendor/umidigi/breeze/proprietary/lib/libaudio_param_parser-sys.so:system/lib/libaudio_param_parser-sys.so \
-    vendor/umidigi/breeze/proprietary/lib64/libaudio_param_parser-sys.so:system/lib64/libaudio_param_parser-sys.so \
-    vendor/umidigi/breeze/proprietary/lib/libaudioclient.so:system/lib/libaudioclient.so \
-    vendor/umidigi/breeze/proprietary/lib64/libaudioclient.so:system/lib64/libaudioclient.so \
-    vendor/umidigi/breeze/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
-    vendor/umidigi/breeze/proprietary/lib64/libaudiocomponentengine.so:system/lib64/libaudiocomponentengine.so \
-    vendor/umidigi/breeze/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
-    vendor/umidigi/breeze/proprietary/lib64/libaudiocustparam.so:system/lib64/libaudiocustparam.so \
-    vendor/umidigi/breeze/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
-    vendor/umidigi/breeze/proprietary/lib64/libaudioflinger.so:system/lib64/libaudioflinger.so \
-    vendor/umidigi/breeze/proprietary/lib/libaudiomanager.so:system/lib/libaudiomanager.so \
-    vendor/umidigi/breeze/proprietary/lib64/libaudiomanager.so:system/lib64/libaudiomanager.so \
-    vendor/umidigi/breeze/proprietary/lib/libaudiopolicycustomextensions.so:system/lib/libaudiopolicycustomextensions.so \
-    vendor/umidigi/breeze/proprietary/lib64/libaudiopolicycustomextensions.so:system/lib64/libaudiopolicycustomextensions.so \
-    vendor/umidigi/breeze/proprietary/lib/libaudiopolicyenginedefault.so:system/lib/libaudiopolicyenginedefault.so \
-    vendor/umidigi/breeze/proprietary/lib64/libaudiopolicyenginedefault.so:system/lib64/libaudiopolicyenginedefault.so \
-    vendor/umidigi/breeze/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
-    vendor/umidigi/breeze/proprietary/lib64/libaudiopolicymanager.so:system/lib64/libaudiopolicymanager.so \
-    vendor/umidigi/breeze/proprietary/lib/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
-    vendor/umidigi/breeze/proprietary/lib64/libaudiopolicymanagerdefault.so:system/lib64/libaudiopolicymanagerdefault.so \
-    vendor/umidigi/breeze/proprietary/lib/libaudiopolicyservice.so:system/lib/libaudiopolicyservice.so \
-    vendor/umidigi/breeze/proprietary/lib64/libaudiopolicyservice.so:system/lib64/libaudiopolicyservice.so \
-    vendor/umidigi/breeze/proprietary/lib/libaudioprocessing.so:system/lib/libaudioprocessing.so \
-    vendor/umidigi/breeze/proprietary/lib64/libaudioprocessing.so:system/lib64/libaudioprocessing.so \
-    vendor/umidigi/breeze/proprietary/lib/libaudiotoolkit.so:system/lib/libaudiotoolkit.so \
-    vendor/umidigi/breeze/proprietary/lib64/libaudiotoolkit.so:system/lib64/libaudiotoolkit.so \
-    vendor/umidigi/breeze/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
-    vendor/umidigi/breeze/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
-    vendor/umidigi/breeze/proprietary/lib64/libbessound_hd_mtk.so:system/lib64/libbessound_hd_mtk.so \
-    vendor/umidigi/breeze/proprietary/lib/libmtkaudio_utils.so:system/lib/libmtkaudio_utils.so \
-    vendor/umidigi/breeze/proprietary/lib64/libmtkaudio_utils.so:system/lib64/libmtkaudio_utils.so \
-    vendor/umidigi/breeze/proprietary/lib/libsoundtriggerservice.so:system/lib/libsoundtriggerservice.so \
-    vendor/umidigi/breeze/proprietary/lib64/libsoundtriggerservice.so:system/lib64/libsoundtriggerservice.so
+    vendor/umidigi/breeze/proprietary/lib/libsysenv_system.so:system/lib/libsysenv_system.so
+    	
+PRODUCT_PACKAGES += \
+    FCamera
