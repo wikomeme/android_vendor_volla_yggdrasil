@@ -22,7 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/breeze/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
     vendor/umidigi/breeze/proprietary/etc/init/kpoc_charger.rc:system/etc/init/kpoc_charger.rc \
     vendor/umidigi/breeze/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
-    vendor/umidigi/breeze/proprietary/lib/libsysenv_system.so:system/lib/libsysenv_system.so
+    vendor/umidigi/breeze/proprietary/lib/libsysenv_system.so:system/lib/libsysenv_system.so \
+    vendor/umidigi/breeze/proprietary/lib64/libmtk-ril.so:system/lib64/libmtk-ril.so
     	
 PRODUCT_PACKAGES += \
     FCamera
