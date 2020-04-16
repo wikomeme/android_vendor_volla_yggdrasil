@@ -25,4 +25,4 @@ PRODUCT_COPY_FILES += \
     vendor/UMIDIGI/A5_Pro/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so
     	
 PRODUCT_PACKAGES += \
-    FCamera
+    CameraGo

@@ -19,9 +19,9 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter A5_Pro,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := FCamera
+LOCAL_MODULE := CameraGo
 LOCAL_MODULE_OWNER := UMIDIGI
-LOCAL_SRC_FILES := proprietary/app/FCamera/FCamera.apk
+LOCAL_SRC_FILES := proprietary/app/CameraGo/CameraGo.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
