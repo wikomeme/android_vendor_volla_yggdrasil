@@ -23,7 +23,12 @@ PRODUCT_COPY_FILES += \
     vendor/UMIDIGI/A5_Pro/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/UMIDIGI/A5_Pro/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/UMIDIGI/A5_Pro/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
-    vendor/UMIDIGI/A5_Pro/proprietary/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk-ril.so
+    vendor/UMIDIGI/A5_Pro/proprietary/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk-ril.so \
+    vendor/UMIDIGI/A5_Pro/proprietary/framework/mediatek-ims-base.jar:system/framework/mediatek-ims-base.jar \
+    vendor/UMIDIGI/A5_Pro/proprietary/framework/mediatek-ims-common.jar:system/framework/mediatek-ims-common.jar \
+    vendor/UMIDIGI/A5_Pro/proprietary/framework/mediatek-ims-extension-plugin.jar:system/framework/mediatek-ims-extension-plugin.jar \
+    vendor/UMIDIGI/A5_Pro/proprietary/framework/mediatek-ims-legacy.jar:system/framework/mediatek-ims-legacy.jar \
+    vendor/UMIDIGI/A5_Pro/proprietary/framework/mediatek-ims-wwop-common.jar:system/framework/mediatek-ims-wwop-common.jar
     	
 PRODUCT_PACKAGES += \
 	ImsService \
