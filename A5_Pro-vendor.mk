@@ -23,13 +23,31 @@ PRODUCT_COPY_FILES += \
     vendor/UMIDIGI/A5_Pro/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/UMIDIGI/A5_Pro/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/UMIDIGI/A5_Pro/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
-    vendor/UMIDIGI/A5_Pro/proprietary/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk-ril.so \
-    vendor/UMIDIGI/A5_Pro/proprietary/framework/mediatek-ims-base.jar:system/framework/mediatek-ims-base.jar \
-    vendor/UMIDIGI/A5_Pro/proprietary/framework/mediatek-ims-common.jar:system/framework/mediatek-ims-common.jar \
     vendor/UMIDIGI/A5_Pro/proprietary/framework/mediatek-ims-extension-plugin.jar:system/framework/mediatek-ims-extension-plugin.jar \
     vendor/UMIDIGI/A5_Pro/proprietary/framework/mediatek-ims-legacy.jar:system/framework/mediatek-ims-legacy.jar \
-    vendor/UMIDIGI/A5_Pro/proprietary/framework/mediatek-ims-wwop-common.jar:system/framework/mediatek-ims-wwop-common.jar
+    vendor/UMIDIGI/A5_Pro/proprietary/framework/mediatek-ims-wwop-common.jar:system/framework/mediatek-ims-wwop-common.jar \
+    vendor/UMIDIGI/A5_Pro/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
+    vendor/UMIDIGI/A5_Pro/proprietary/lib/libmtk_vt_wrapper.so:system/lib/libmtk_vt_wrapper.so \
+    vendor/UMIDIGI/A5_Pro/proprietary/lib/libmtkaudio_utils.so:system/lib/libmtkaudio_utils.so \
+    vendor/UMIDIGI/A5_Pro/proprietary/lib/libmtkavenhancements.so:system/lib/libmtkavenhancements.so \
+    vendor/UMIDIGI/A5_Pro/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
+    vendor/UMIDIGI/A5_Pro/proprietary/lib/libmtkperf_client.so:system/lib/libmtkperf_client.so \
+    vendor/UMIDIGI/A5_Pro/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
+    vendor/UMIDIGI/A5_Pro/proprietary/lib64/libmtk_serialnum.so:system/lib64/libmtk_serialnum.so \
+    vendor/UMIDIGI/A5_Pro/proprietary/lib64/libmtk_vt_wrapper.so:system/lib64/libmtk_vt_wrapper.so \
+    vendor/UMIDIGI/A5_Pro/proprietary/lib64/libmtkaudio_utils.so:system/lib64/libmtkaudio_utils.so \
+    vendor/UMIDIGI/A5_Pro/proprietary/lib64/libmtkavenhancements.so:system/lib64/libmtkavenhancements.so \
+    vendor/UMIDIGI/A5_Pro/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
+    vendor/UMIDIGI/A5_Pro/proprietary/lib64/libmtkperf_client.so:system/lib64/libmtkperf_client.so \
+    vendor/UMIDIGI/A5_Pro/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
     	
 PRODUCT_PACKAGES += \
 	ImsService \
-    CameraGo
+    CameraGo \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common
