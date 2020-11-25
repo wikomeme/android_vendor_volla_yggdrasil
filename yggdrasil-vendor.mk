@@ -18,7 +18,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/volla/
 
 PRODUCT_COPY_FILES += \
-    vendor/volla/yggdrasil/proprietary/bin/netd:$(TARGET_COPY_OUT_SYSTEM)/bin/netd \
     vendor/volla/yggdrasil/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/volla/yggdrasil/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/volla/yggdrasil/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
