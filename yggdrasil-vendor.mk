@@ -74,9 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/volla/yggdrasil/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
     vendor/volla/yggdrasil/proprietary/vendor/bin/hw/android.hardware.audio@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@4.0-service-mediatek \
     vendor/volla/yggdrasil/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
-    vendor/volla/yggdrasil/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service \
-    vendor/volla/yggdrasil/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.clearkey \
-    vendor/volla/yggdrasil/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/volla/yggdrasil/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service \
     vendor/volla/yggdrasil/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@2.0-service \
     vendor/volla/yggdrasil/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.1-service \
@@ -297,7 +294,6 @@ PRODUCT_COPY_FILES += \
     vendor/volla/yggdrasil/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/volla/yggdrasil/proprietary/vendor/etc/init/android.hardware.cas@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.0-service.rc \
     vendor/volla/yggdrasil/proprietary/vendor/etc/init/android.hardware.configstore@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.configstore@1.1-service.rc \
-    vendor/volla/yggdrasil/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.rc \
     vendor/volla/yggdrasil/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.clearkey.rc \
     vendor/volla/yggdrasil/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/volla/yggdrasil/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
